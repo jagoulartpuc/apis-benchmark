@@ -1,0 +1,31 @@
+Data Received: Your application received a total of 5.7 gigabytes of data at a rate of 63 megabytes per second.
+
+Data Sent: Your application sent out 3.6 megabytes of data at a rate of 40 kilobytes per second.
+
+Dropped Iterations: There were 20,445 dropped iterations, occurring at a rate of approximately 226 per second. Dropped iterations are requests or operations that couldn't be completed.
+
+HTTP Request Blocked: The average time it took for an HTTP request to be unblocked and start processing was about 7.69 microseconds. The fastest unblocking time was 700 nanoseconds, while the slowest was 12.62 milliseconds. Most requests (90%) were unblocked within 7.4 microseconds, and 95% within 9 microseconds.
+
+HTTP Request Connecting: The average time it took for an HTTP request to establish a connection was approximately 556 nanoseconds. The fastest connection time was instant (0 nanoseconds), and the slowest was 1.21 milliseconds. Most connections (90%) were established instantly (0 nanoseconds), and 95% within 0 nanoseconds.
+
+HTTP Request Duration: The average duration of an HTTP request, from start to finish, was about 114.24 milliseconds. The fastest request completed in 552.5 microseconds, while the slowest took 1.48 seconds. Most requests (90%) finished within 349.13 milliseconds, and 95% within 464.59 milliseconds.
+
+HTTP Request Failed: There was a 0% failure rate for HTTP requests, with all 26,608 requests being successful (✓) and none failing (✗).
+
+HTTP Request Receiving: The average time it took to receive data from an HTTP request was approximately 771.73 microseconds. The fastest data reception time was 9.6 microseconds, and the slowest was 211.96 milliseconds. Most data was received within 1.1 milliseconds (90%) and within 2.34 milliseconds (95%).
+
+HTTP Request Sending: The average time it took to send data in an HTTP request was approximately 85.45 microseconds. The fastest data sending time was 3.8 microseconds, and the slowest was 38.55 milliseconds. Most data was sent within 45.42 microseconds (90%) and within 67.46 microseconds (95%).
+
+HTTP Request TLS Handshaking: There was no measurable time spent on TLS (Transport Layer Security) handshaking for these requests.
+
+HTTP Request Waiting: The average time spent waiting for a response from an HTTP request was about 113.38 milliseconds. The shortest waiting time was 471.1 microseconds, while the longest was 1.47 seconds. Most requests (90%) received a response within 347.25 milliseconds, and 95% within 461.54 milliseconds.
+
+HTTP Requests: There were a total of 26,608 HTTP requests, occurring at a rate of approximately 294.32 requests per second.
+
+Iteration Duration: The average duration of an iteration (a set of requests or operations) was about 228.86 milliseconds. The shortest iteration took 4.79 milliseconds, while the longest took 1.49 seconds. Most iterations (90%) were completed within 504.77 milliseconds, and 95% within 614.6 milliseconds.
+
+Iterations: There were a total of 13,304 iterations, happening at a rate of approximately 147.16 iterations per second.
+
+Virtual Users (VUs): The number of virtual users (simulated users or clients) was 50. The minimum and maximum number of virtual users were both 50.
+
+Maximum Virtual Users (VUs Max): The maximum number of virtual users (simulated users or clients) remained constant at 50 throughout the test.

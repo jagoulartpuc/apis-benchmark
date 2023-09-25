@@ -1,0 +1,31 @@
+Data Received: Your application received 196 megabytes of data at an average rate of 2.1 megabytes per second.
+
+Data Sent: Your application sent 477 kilobytes of data at an average rate of 5.2 kilobytes per second.
+
+Dropped Iterations: There were 32,003 dropped iterations, occurring at an average rate of approximately 346.4 iterations per second. Dropped iterations can indicate issues with the test or system under load.
+
+HTTP Request Blocked: The average time it took for HTTP requests to be blocked was approximately 8.45 microseconds. The fastest blocking event occurred in 1 microsecond, while the slowest took 637.1 microseconds. The 90th percentile (p(90)) of blocking times was 6.2 microseconds, and the 95th percentile (p(95)) was 7.8 microseconds.
+
+HTTP Request Connecting: The average time it took for HTTP requests to establish a connection was approximately 2.86 microseconds. The fastest connection event occurred instantly (0 microseconds), and the slowest took 539.69 microseconds. The 90th percentile (p(90)) for connection times was 0 microseconds, and the 95th percentile (p(95)) was 0 microseconds.
+
+HTTP Request Duration: The average duration of HTTP requests was approximately 1.24 seconds. The fastest request took 1.61 milliseconds, while the slowest took 6.29 seconds. The 90th percentile (p(90)) request duration was 3.82 seconds, and the 95th percentile (p(95)) was 4.87 seconds. These values provide insights into the distribution of request durations.
+
+HTTP Request Failed: There were no failed HTTP requests; all 3,492 requests were successful.
+
+HTTP Request Receiving: The average time it took to receive an HTTP response was approximately 1.23 seconds. The fastest response reception event occurred in 10.5 microseconds, while the slowest took 6.29 seconds. The 90th percentile (p(90)) for response receiving time was 3.81 seconds, and the 95th percentile (p(95)) was 4.86 seconds.
+
+HTTP Request Sending: The average time it took to send an HTTP request was approximately 50.59 microseconds. The fastest request sending event occurred in 6 microseconds, while the slowest took 22.27 milliseconds. The 90th percentile (p(90)) for request sending time was 32 microseconds, and the 95th percentile (p(95)) was 40 microseconds.
+
+HTTP Request TLS Handshaking: There was no measurable time spent on TLS handshaking for these requests (average, min, med, and max times were all 0).
+
+HTTP Request Waiting: The average time spent waiting for a response after sending a request was approximately 7.74 milliseconds. The shortest wait time was 1.22 milliseconds, and the longest was 177.3 milliseconds. The 90th percentile (p(90)) for waiting time was 14.93 milliseconds, and the 95th percentile (p(95)) was 20.09 milliseconds.
+
+HTTP Requests: A total of 3,492 HTTP requests were made, occurring at an average rate of approximately 37.8 requests per second.
+
+Iteration Duration: The average duration of test iterations was approximately 2.49 seconds. The shortest iteration took 15.26 milliseconds, while the longest took 6.29 seconds. The 90th percentile (p(90)) for iteration duration was 4.88 seconds, and the 95th percentile (p(95)) was 5.13 seconds.
+
+Iterations: A total of 1,746 test iterations were executed, occurring at an average rate of approximately 18.9 iterations per second.
+
+VUs (Virtual Users): The number of virtual users ranged from a minimum of 1 to a maximum of 50 during the test.
+
+VUs Max (Maximum Virtual Users): The maximum number of virtual users reached and remained at 50 throughout the test.

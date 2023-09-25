@@ -1,0 +1,27 @@
+Data Received: The system received 902 megabytes of data at a rate of 9.8 megabytes per second.
+
+Data Sent: The system sent 512 kilobytes of data at a rate of 5.6 kilobytes per second.
+
+Dropped Iterations: There were 31,874 dropped iterations, occurring at an average rate of 345.83 iterations per second. This could indicate issues with the test or the system under test.
+
+HTTP Request Blocked: This section provides statistics related to how quickly HTTP requests were blocked. On average, a request was blocked for about 7.29 microseconds. The minimum blocking time was 1.5 microseconds, while the maximum was 1.5 milliseconds. Percentiles (p(90) and p(95)) indicate the values below which a certain percentage of blocking times fall.
+
+HTTP Request Connecting: This section provides statistics about the time it took to establish a connection for HTTP requests. On average, it took about 2.17 microseconds to establish a connection. The minimum time was zero seconds, and the maximum was 934.4 microseconds.
+
+HTTP Request Duration: This section provides information about the duration of HTTP requests. On average, a request took 1.2 seconds to complete. The fastest request took 19.2 milliseconds, while the slowest took 3.45 seconds. Percentiles (p(90) and p(95)) indicate the values below which a certain percentage of request durations fall.
+
+HTTP Request Failed: There were no failed HTTP requests, indicating that all requests were successful.
+
+HTTP Request TLS Handshaking: This section provides statistics about the time it took for TLS (Transport Layer Security) handshaking during HTTPS requests. It appears that no time was spent on TLS handshaking, which can be expected if the test doesn't involve HTTPS.
+
+HTTP Request Waiting: This section provides information about the time requests spent waiting for a response. On average, requests waited 1.2 seconds. The shortest wait time was 19.15 milliseconds, and the longest was 3.45 seconds. Percentiles (p(90) and p(95)) indicate the values below which a certain percentage of wait times fall.
+
+HTTP Requests: A total of 3,750 HTTP requests were made during the test, with an average rate of 40.69 requests per second.
+
+Iteration Duration: The average duration of an iteration (a set of actions or requests) was 2.41 seconds. The shortest iteration took 154.86 milliseconds, and the longest took 4.12 seconds. Percentiles (p(90) and p(95)) indicate the values below which a certain percentage of iteration durations fall.
+
+Iterations: There were a total of 1,875 iterations during the test, occurring at an average rate of 20.34 iterations per second.
+
+Virtual Users (VUs): The test was conducted with a varying number of virtual users, ranging from a minimum of 15 to a maximum of 50.
+
+Maximum Virtual Users (VUs Max): The maximum number of virtual users used during the test remained constant at 50.
